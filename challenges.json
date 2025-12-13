@@ -2,5 +2,5 @@
   "name": "Example Challenges Repository",
   "description": "Challenge repository for Example Challenges",
   "author": "FRC Team",
-  "challenges": ["example-challenge", "example-challenge2"]
+  "challenges": ["example-challenge2", "example-challenge"]
 }
