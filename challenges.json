@@ -1,0 +1,6 @@
+{
+  "name": "Example Challenges Repository",
+  "description": "Challenge repository for Example Challenges",
+  "author": "FRC Team",
+  "challenges": ["example-challenge"]
+}
