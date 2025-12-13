@@ -1,6 +1,6 @@
 {
-  "title": "Example Challenge 1",
-  "description": "This is an example challenge",
+  "title": "Example Challenge 2",
+  "description": "This is another example challenge",
   "files": {
     "instructions": "instructions.md",
     "simVisualization": "sim-visualization/dist",
