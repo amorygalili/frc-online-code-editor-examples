@@ -13,20 +13,20 @@ export default defineConfig({
       name: "challenge-visualization",
       // TODO: multiple entry points are not supported with umd
       // How do we add umd support then?
-      formats: ["es"],
+      formats: ["umd"],
       fileName: () => "index.js",
     },
     rollupOptions: {
       external: [
         "react",
         "react-dom",
-        "react/jsx-runtime",
+        // "react/jsx-runtime",
       ],
       output: {
         globals: {
           react: "React",
           "react-dom": "ReactDOM",
-          "react/jsx-runtime": "react/jsx-runtime",
+          // "react/jsx-runtime": "react/jsx-runtime",
         },
       },
     },
