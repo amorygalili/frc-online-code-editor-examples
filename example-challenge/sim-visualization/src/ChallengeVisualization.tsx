@@ -7,7 +7,7 @@ import { useNTKeys } from 'frc-challenge-site';
  * 
  * Customize this component to create your challenge's unique visualization.
  */
-export default function ChallengeVisualization() {
+export function ChallengeVisualization() {
   const ntKeys = useNTKeys();
   return (
     <div style={{ 
