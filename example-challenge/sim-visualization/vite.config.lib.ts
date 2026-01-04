@@ -13,7 +13,7 @@ export default defineConfig({
       name: "challenge-visualization",
       // TODO: multiple entry points are not supported with umd
       // How do we add umd support then?
-      formats: ["umd"],
+      formats: ["es"],
       fileName: () => "index.js",
     },
     rollupOptions: {
